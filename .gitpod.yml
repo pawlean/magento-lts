@@ -1,6 +1,7 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: bash dev/openmage/install.sh
+  - name: Install OpenMage
+    init: bash dev/openmage/install.sh
     env:
       BASE_URL: $GITPOD_WORKSPACE_URL
 
